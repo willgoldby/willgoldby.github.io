@@ -3,38 +3,514 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Will</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link href="site.css" rel="stylesheet">
   </head>
   <body >
     <main>
+      <!--container-->
       <div class="container">
+        <!--row-->
         <div class="row">
+          <!--col 1-->
           <div class="col-2">
             <ul class="nav flex-column">
               <li class="nav-item">
-                <a class="nav-link" href="/index.html">About</a>
+                <a class="nav-link" href="index.html">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/portfolio.html">Portfolio</a>
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Education</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link href="#">Link</a>
               </li>
             </ul>
+          <!--End col 1-->
           </div>
+          
+          <!--col 2-->
           <div class="col">
-            <h1>My work</h1>
-            <p>I'm a technical writer at Google.</p>
+            <!--MAIN TABLE FOR ALL CONTENT-->
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col" class="col-8">Project title</th>
+                  <th scope="col">Picture</th>
+                </tr>  
+              </thead>
+              <tbody>
+                <!--PROJECT 1--> 
+                <tr>
+                  <!--TITLE-->
+                  <td class="noborder"><h2>Introduction to Machine Learning</h2></td>
+                  <!--Skip next column--> 
+                  <td class="noborder"></td>
+                <!--IMAGE AND CONTENT-->
+                <tr>
+                  <td class="col-8">
+                    <table class="table">
+                      <tbody>
+                        <tr>
+                          <td class="noborder">
+                            Project description
+                          </td>
+                          <td class="noborder desc">
+                            A gentle introduction to machine learning. 
+                            The course covers core ML concepts and methodologies.
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="noborder">
+                            Audience
+                          </td>
+                          <td class="noborder desc">
+                            Aimed at a broad audience with little to 
+                            no technical background.
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="noborder">
+                            How I did it
+                          </td>
+                          <td class="noborder desc">
+                            Collaborated with ML experts, user experience researchers,
+                            and animation specialists.
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="noborder">
+                            Impact
+                          </td>
+                          <td class="noborder desc">
+                            A widely taken course by internal and external users worldwide.
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="noborder">
+                            URL
+                          </td>
+                          <td class="noborder desc">
+                            <a href="https://developers.google.com/machine-learning/intro-to-ml">
+                              <p class="link">developers.google.com/machine-learning/intro-to-ml</p>
+                            </a>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                  <td>
+                    <img src="images/ml-1.png" width="90%">
+                  </td>
+                </tr>
+                <!--END PROJECT 1-->
+                <!--PROJECT 2--> 
+                <tr>
+                  <!--TITLE-->
+                  <td class="noborder"><h2>Introduction to Machine Learning Problem Framing</h2></td>
+                  <!--Skip next column--> 
+                  <td class="noborder"></td>
+                <!--IMAGE AND CONTENT-->
+                <tr>
+                  <td class="col-8">
+                    <table class="table">
+                      <tbody>
+                        <tr>
+                          <td class="noborder">
+                            Project description
+                          </td>
+                          <td class="noborder desc">
+                            A technical overview for solving problems with ML.
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="noborder">
+                            Audience
+                          </td>
+                          <td class="noborder desc">
+                            Aimed at a technical audience who needs
+                            a framework for solving problems using machine learning.
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="noborder">
+                            How I did it
+                          </td>
+                          <td class="noborder desc">
+                            Worked with ML experts to understand the key differences
+                            and approaches for solving problems with ML.
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="noborder">
+                            Impact
+                          </td>
+                          <td class="noborder desc">
+                            A widely taken course by internal and external users worldwide.
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="noborder">
+                            URL
+                          </td>
+                          <td class="noborder desc">
+                            <a href="https://developers.google.com/machine-learning/problem-framing">
+                              <p class="link">developers.google.com/machine-learning/problem-framing</p>
+                            </a>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                  <td>
+                    <img src="images/ml-1.png" width="90%">
+                  </td>
+                </tr>
+                <!--END PROJECT 2-->
+                <!--PROJECT 3--> 
+                <tr>
+                  <!--TITLE-->
+                  <td class="noborder"><h2>Site redesign: ML Courses</h2></td>
+                  <!--Skip next column--> 
+                  <td class="noborder"></td>
+                <!--IMAGE AND CONTENT-->
+                <tr>
+                  <td class="col-8">
+                    <table class="table">
+                      <tbody>
+                        <tr>
+                          <td class="noborder">
+                            Project description
+                          </td>
+                          <td class="noborder desc">
+                            Designed and implemented a user-centered homepage
+                            to help learners easily find relevant content for
+                            their ML educational journey.
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="noborder">
+                            Audience
+                          </td>
+                          <td class="noborder desc">
+                            Aimed at a primarily technical audience looking
+                            for ML-related education.                          
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="noborder">
+                            How I did it
+                          </td>
+                          <td class="noborder desc">
+                            Worked with UX designers and illustrators
+                            to create an appealing homepage that's easily
+                            to navigate. 
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="noborder">
+                            Impact
+                          </td>
+                          <td class="noborder desc">
+                            The site has a million plus users a year.
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="noborder">
+                            URL
+                          </td>
+                          <td class="noborder desc">
+                            <a href="https://developers.google.com/machine-learning/">
+                              <p class="link">developers.google.com/machine-learning/</p>
+                            </a>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                  <td>
+                    <img src="images/ml-1.png" width="90%">
+                  </td>
+                </tr>
+                <!--END PROJECT 3-->
+                <!--PROJECT 4--> 
+                <tr>
+                  <!--TITLE-->
+                  <td class="noborder"><h2>Cloud Logging</h2></td>
+                  <!--Skip next column--> 
+                  <td class="noborder"></td>
+                <!--IMAGE AND CONTENT-->
+                <tr>
+                  <td class="col-8">
+                    <table class="table">
+                      <tbody>
+                        <tr>
+                          <td class="noborder">
+                            Project description
+                          </td>
+                          <td class="noborder desc">
+                            Documented a series of Cloud Logging features,
+                            like searching and parsing logs from a bespoke
+                            query UI, implementing searches using 
+                            regular expressions,
+                            and understanding dashboard metrics.   
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="noborder">
+                            Audience
+                          </td>
+                          <td class="noborder desc">
+                            Aimed at both novice and advanced Cloud Logging users.   
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="noborder">
+                            How I did it
+                          </td>
+                          <td class="noborder desc">
+                            Collaborated with engineers, UX designers, and PMs.
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="noborder">
+                            Impact
+                          </td>
+                          <td class="noborder desc">
+                            Reduced user friction and created mental model to
+                            help developers increase productivity.
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="noborder">
+                            URL
+                          </td>
+                          <td class="noborder desc">
+                            <a href="https://cloud.google.com/logging/docs/overview">
+                              <p class="link">cloud.google.com/logging/docs/overview</p>
+                            </a>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                  <td>
+                    <img src="images/ml-1.png" width="90%">
+                  </td>
+                </tr>
+                <!--END PROJECT 4-->
+                <!--PROJECT 5--> 
+                <tr>
+                  <!--TITLE-->
+                  <td class="noborder"><h2>Cloud Debugger</h2></td>
+                  <!--Skip next column--> 
+                  <td class="noborder"></td>
+                <!--IMAGE AND CONTENT-->
+                <tr>
+                  <td class="col-8">
+                    <table class="table">
+                      <tbody>
+                        <tr>
+                          <td class="noborder">
+                            Project description
+                          </td>
+                          <td class="noborder desc">
+                            Created a user-centered quickstart guide
+                            to help users learn and explore the full
+                            functionality of the Debugger.   
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="noborder">
+                            Audience
+                          </td>
+                          <td class="noborder desc">
+                            Aimed at software engineers using Google Cloud.
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="noborder">
+                            How I did it
+                          </td>
+                          <td class="noborder desc">
+                            Worked with the Debugger engineers to understand
+                            the key features of the product.
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="noborder">
+                            Impact
+                          </td>
+                          <td class="noborder desc">
+                            Created a smoother and more intuitive onboarding
+                            experience for developers.
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="noborder">
+                            URL
+                          </td>
+                          <td class="noborder desc">
+                              <p class="link">Cloud Debugger was deprecated May 2022.</p>
+                            </a>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                  <td>
+                    <img src="images/ml-1.png" width="90%">
+                  </td>
+                </tr>
+                <!--END PROJECT 5-->
+                <!--PROJECT 6--> 
+                <tr>
+                  <!--TITLE-->
+                  <td class="noborder"><h2>Cloud Trace</h2></td>
+                  <!--Skip next column--> 
+                  <td class="noborder"></td>
+                <!--IMAGE AND CONTENT-->
+                <tr>
+                  <td class="col-8">
+                    <table class="table">
+                      <tbody>
+                        <tr>
+                          <td class="noborder">
+                            Project description
+                          </td>
+                          <td class="noborder desc">
+                            Documented Node.js and Go libraries
+                            for OpenTelemetry, an open source
+                            telemetry program.  
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="noborder">
+                            Audience
+                          </td>
+                          <td class="noborder desc">
+                            Aimed at software engineers using Google Cloud.
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="noborder">
+                            How I did it
+                          </td>
+                          <td class="noborder desc">
+                            Worked with developer relations engineers
+                            to understand the features, common use cases, and
+                            workflows developers need to know to use the product.
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="noborder">
+                            Impact
+                          </td>
+                          <td class="noborder desc">
+                            Helped Google Cloud users understand
+                            key implementation and design patterns. 
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="noborder">
+                            URL
+                          </td>
+                          <td class="noborder desc">
+                              <a href="https://cloud.google.com/trace/docs/overview">
+                                <p class="link">cloud.google.com/trace/docs/overview</p>
+                              </a>
+                            </a>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                  <td>
+                    <img src="images/ml-1.png" width="90%">
+                  </td>
+                </tr>
+                <!--END PROJECT 6-->
+                <!--PROJECT 7--> 
+                <tr>
+                  <!--TITLE-->
+                  <td class="noborder"><h2>Google Cloud App Engine</h2></td>
+                  <!--Skip next column--> 
+                  <td class="noborder"></td>
+                <!--IMAGE AND CONTENT-->
+                <tr>
+                  <td class="col-8">
+                    <table class="table">
+                      <tbody>
+                        <tr>
+                          <td class="noborder">
+                            Project description
+                          </td>
+                          <td class="noborder desc">
+                            Wrote a tasked-based guide for App Engine's
+                            PHP runtime environment.  
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="noborder">
+                            Audience
+                          </td>
+                          <td class="noborder desc">
+                            Aimed at software engineers using Google Cloud.
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="noborder">
+                            How I did it
+                          </td>
+                          <td class="noborder desc">
+                            Worked with developer relations engineers
+                            to understand the features, common use cases, and
+                            workflows PHP developers need to know to use the product.
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="noborder">
+                            Impact
+                          </td>
+                          <td class="noborder desc">
+                            Helped Google Cloud users understand
+                            basic set-up and implementation procedures. 
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="noborder">
+                            URL
+                          </td>
+                          <td class="noborder desc">
+                              <a href="https://cloud.google.com/appengine/docs">
+                                <p class="link">https://cloud.google.com/appengine/docs</p>
+                              </a>
+                            </a>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                  <td>
+                    <img src="images/ml-1.png" width="90%">
+                  </td>
+                </tr>
+                <!--END PROJECT 7-->
+              </tbody>
+            <!--END MAIN TABLE-->
+            </table>
+          <!--End col 2--> 
           </div>
+        
+        <!--End row--> 
         </div>
+      <!--End container--> 
       </div>
-           </main>
+    </main>
   
   </body>
 </html>

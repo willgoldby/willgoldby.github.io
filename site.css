@@ -1,7 +1,41 @@
 body {
-      font-family: 'Roboto Mono', monospace;
-      font-size: 28;
-      color: white;
-      background-color:black;
-    }
-a { color: white; }
+  font-family: 'Roboto Mono', monospace;
+  font-size: 28;
+  color: black;
+}
+
+a { color: lightblue; }
+
+.noborder{
+  border:none;
+}
+
+.desc{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 14;
+}
+
+.link{
+  color:darkgrey
+}
+
+.school-list{
+  padding-left: 0;
+}
+
+.school{
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  font-size: x-large;
+  color: black;
+  list-style-type: none;
+}
+
+.school-desc{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 14;
+  color: black;
+  list-style-type: none;
+}
