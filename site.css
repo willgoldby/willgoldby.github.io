@@ -39,3 +39,11 @@ a { color: lightblue; }
   color: black;
   list-style-type: none;
 }
+
+img{
+  width: 200px;
+}
+
+.fixed{
+  width: 300px;
+}
